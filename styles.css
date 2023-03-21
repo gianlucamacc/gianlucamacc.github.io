@@ -1,0 +1,250 @@
+/* Gianluca Macchiagodena
+    Lab: Assignment 1
+    File: styles.css
+*/
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #d6e5dd;
+    font-family: sans-serif, 'Open Sans';
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+header {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #517764;
+    display: flex;
+    justify-content: space-between;
+    height: 40pt;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a {
+    font-weight: bold;
+    font-family: Helvetica, sans-serif, Arial;
+    text-decoration: none;
+    display: block;
+    font-size: 16pt;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 32, 0)
+}
+
+.socials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.socials img {
+    height: 2rem;
+    width: auto;
+    margin: auto 5pt;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-title {
+    margin: 5% 10%;
+}
+
+.section-heading {
+    color: #517764;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.home-image {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#aboutmelink {
+    margin-left: 50%;
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#aboutmelink:hover {
+    color: grey;
+}
+
+.container-about {
+    background-color: whitesmoke;
+    box-shadow: 15px 10px 20px #b9b9b9;
+    line-height: 1.5;
+    padding: 2%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.about {
+    text-align: center;
+    color: #517764;
+}
+
+.description-about p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+/*resume.html*/
+.resume {
+    background-color: whitesmoke;
+    box-shadow: 15px 10px 20px #b9b9b9;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.title-resume {
+    color: #517764;
+    text-decoration: underline;
+
+}
+
+.education-title {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.education a {
+    text-decoration: none;
+    color: black;
+}
+
+.education a:hover {
+    color: #517764
+}
+
+#education-date {
+    font-size: 1em;
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+}
+
+.experience-date {
+    font-size: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+.experience-title {
+    text-decoration: underline;
+    line-height: 0;
+    margin-top: 5%;
+}
+
+/*Courses.html*/
+.courses {
+    background-color: whitesmoke;
+    box-shadow: 15px 10px 20px #b9b9b9;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+
+
+}
+.course-image img{
+width: 9em;
+height: auto;
+margin: 1em;
+}
+
+.course-title {
+    color: #517764;
+    text-decoration: underline;
+}
+
+
+.searchbar input[type="text"] {
+    margin: 5pt auto;
+    margin-right: 1em;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+.searchbar button[type="submit"] {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: #517764;
+    border: 1px solid #517764;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5pt auto;
+    margin-right: 1em;
+
+}
+.level-title{
+    color: #517764;
+    
+}
+.filterbar{
+    background-color: whitesmoke;
+    box-shadow: 15px 10px 20px #b9b9b9;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+}
+#filterbylevel{
+    margin: 5pt auto;
+    margin-right: 1em;
+    padding: 10px;
+    color: #517764;
+    border-radius: 4px;
+    font-size: 16px;
+
+    
+}
